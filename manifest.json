@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Redirector to Myweb",
-    "version": "0.1",
-    "description": "Redirects to Myweb with the ArXiv paper title.",
+    "name": "Redirector to ReadPaper",
+    "version": "1.0",
+    "description": "Redirects to ReadPaper with the ArXiv paper title.",
     "permissions": [
         "contextMenus",
         "activeTab",
