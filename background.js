@@ -2,7 +2,8 @@ chrome.runtime.onInstalled.addListener(function () {
     chrome.contextMenus.create({
         id: "redirectToReadPaper",
         title: "Redirector to ReadPaper",
-        contexts: ["page"]
+        contexts: ["all"],
+        documentUrlPatterns: ["https://arxiv.org/*"]
     });
 });
 
